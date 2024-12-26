@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Space Grotesk";
+}
+
+.PhoneInputCountry {
+  height: 55px;
+  /* border: 1.5px solid #756e7e; */
+  border-radius: 6px;
+  padding: 5px;
+}
+.PhoneInputInput {
+  width: 80%;
+  height: 55px;
+  /* border: 1.5px solid #756e7e; */
+  border-radius: 6px;
+  font-size: 16px;
+}
+.PhoneInputCountryIcon {
+  box-shadow: none;
+  background: transparent;
+}
+
+.mobileView {
+  width: 100% !important; 
+  max-width: 640px !important;
+  margin: 0 auto !important;
+}
+.no-scrollbar::-webkit-scrollbar{
+  display: none !important;
+}
+.no-scrollbar{
+  -ms-overflow-style: none !important;  /* IE and Edge */
+  scrollbar-width: none !important;
+}
+.hide-wheel::-webkit-outer-spin-button,
+.hide-wheel::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
